@@ -46,8 +46,9 @@ body {
     background-color: darkblue;
 }
 
-.tab.active {
+.active {
     background-color: #f0f0f0;
+    color: black;
 }
 
 .form {
@@ -55,10 +56,12 @@ body {
     transition: opacity 0.3s ease-in-out;
 }
 
-.form#loginForm {
+#loginForm {
     opacity: 1;
 }
-
+#signupForm{
+    display: none;
+}
 .form-group {
     margin-bottom: 15px;
 }
