@@ -15,6 +15,5 @@ function showSignup() {
   document.querySelector('#signup').classList.add('active');
 }
 
-// Add event listeners to the tabs
 document.querySelector('#login').addEventListener('click', showLogin);
 document.querySelector('#signup').addEventListener('click', showSignup);
